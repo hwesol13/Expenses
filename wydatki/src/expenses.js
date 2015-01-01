@@ -1,4 +1,4 @@
-/*** @jsx React.DOM */
+﻿/*** @jsx React.DOM */
 
 var sumOfValues = {sum: 0}; //obiekt zawiera jedo pole sum - suma wydatkow. 
 var myJSON = []; //tablica obiektow zawierajacych pola z opisem wydatku, kowocie i dacie dodania wydatku
@@ -118,7 +118,7 @@ var List = React.createClass({	// tutaj przygotowuja sie elementy listy dla komp
 		<div>
 		{
 			this.props.items.map(function(item) {
-				return (<div id="liElement" key={item.key}><li className="leftElement">{item.date}</li><li className="middleElement">{item.description}</li><li className="rightElement">{item.value + " zł"}<img id="img" src="images/zamknij.png"  onClick={this.handleClick.bind(this, item.key)}/></li></div>)
+				return (<div id="liElement" key={item.key}><li className="leftElement">{item.date}</li><li className="middleElement">{item.description}</li><li className="rightElement">{item.value + " zł"}<img id="img" src="images/close.png"  onClick={this.handleClick.bind(this, item.key)}/></li></div>)
 			}.bind(this))
 		}
 		</div>
