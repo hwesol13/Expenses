@@ -1,0 +1,82 @@
+* { /*reset*/
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: verdana;
+	font-style: bold;
+	color: #032236;
+	background-color: #708FA3;
+}
+
+#descriptionInput, #valueInput  {
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	vertical-align: middle;
+	color: #032236;
+	border-radius: 5px;
+	padding-left: 5px;
+	margin-top: 10px;
+}
+
+.autocenter{
+	width: 30%;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#inputFields {
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	height: 38px;
+	line-height: 38px;
+	vertical-align: middle;
+	background-color: #486F88;
+}
+
+.leftElement {
+	padding-left: 5%;
+	text-align: left;
+	display: inline;
+	float: left;
+	width: 30%;
+}
+
+.middleElement {
+	width: 35%;
+	display: inline;
+	float: left;
+	text-align: center;
+}
+
+.rightElement {
+	text-align: right;
+	display: inline;
+	float: right;
+	width: 30%;
+}
+
+img {
+	float: right;
+
+}
+img:hover {
+    filter: alpha(opacity=60);
+    opacity: .6;
+}
+
+p {
+	text-align: right;
+	padding-right: 5%;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+	background-color: #486F88;
+}
+
